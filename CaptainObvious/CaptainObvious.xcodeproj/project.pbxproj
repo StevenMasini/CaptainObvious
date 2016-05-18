@@ -13,6 +13,7 @@
 		90BD87F61CEC05B20005C897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90BD87F41CEC05B20005C897 /* Main.storyboard */; };
 		90BD87F81CEC05B20005C897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BD87F71CEC05B20005C897 /* Assets.xcassets */; };
 		90BD87FB1CEC05B20005C897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90BD87F91CEC05B20005C897 /* LaunchScreen.storyboard */; };
+		90BD88041CEC06200005C897 /* Reflection+NSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BD88031CEC06200005C897 /* Reflection+NSObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		90BD87F71CEC05B20005C897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90BD87FA1CEC05B20005C897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90BD87FC1CEC05B20005C897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90BD88021CEC06200005C897 /* Reflection+NSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Reflection+NSObject.h"; sourceTree = "<group>"; };
+		90BD88031CEC06200005C897 /* Reflection+NSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Reflection+NSObject.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		90BD87EA1CEC05B20005C897 /* CaptainObvious */ = {
 			isa = PBXGroup;
 			children = (
+				90BD88021CEC06200005C897 /* Reflection+NSObject.h */,
+				90BD88031CEC06200005C897 /* Reflection+NSObject.m */,
 				90BD87EE1CEC05B20005C897 /* AppDelegate.h */,
 				90BD87EF1CEC05B20005C897 /* AppDelegate.m */,
 				90BD87F11CEC05B20005C897 /* ViewController.h */,
@@ -151,6 +156,7 @@
 			files = (
 				90BD87F31CEC05B20005C897 /* ViewController.m in Sources */,
 				90BD87F01CEC05B20005C897 /* AppDelegate.m in Sources */,
+				90BD88041CEC06200005C897 /* Reflection+NSObject.m in Sources */,
 				90BD87ED1CEC05B20005C897 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
